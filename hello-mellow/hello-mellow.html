@@ -1,0 +1,63 @@
+<hr>
+<p>title: Hello Mellow<br>date: 2017-12-09 14:50:01<br>tags: [tag1, tag2]<br>categories:</p>
+<pre><code>- cg1
+- cg2
+- cg3
+</code></pre><p>comments: true<br>reward: true<br>top: 1</p>
+<h2 id="repo-codefine-hexo-theme-mellow"><a href="#repo-codefine-hexo-theme-mellow" class="headerlink" title="repo: codefine | hexo-theme-mellow"></a>repo: codefine | hexo-theme-mellow</h2><blockquote>
+<p>这是一篇傲娇的功能展示页。</p>
+</blockquote>
+<!--more-->
+<h1 id="正文及自动收缩目录测试"><a href="#正文及自动收缩目录测试" class="headerlink" title="正文及自动收缩目录测试"></a>正文及自动收缩目录测试</h1><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h2 id="目录a"><a href="#目录a" class="headerlink" title="目录a"></a>目录a</h2><p>目录a目录a目录a目录a目录a</p>
+<h2 id="目录b"><a href="#目录b" class="headerlink" title="目录b"></a>目录b</h2><p>目录b目录b目录b目录b目录b</p>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h1 id="引用测试"><a href="#引用测试" class="headerlink" title="引用测试"></a>引用测试</h1><h2 id="普通引用"><a href="#普通引用" class="headerlink" title="普通引用"></a>普通引用</h2><blockquote>
+<p>红红火火恍恍惚惚</p>
+</blockquote>
+<h2 id="引用文章"><a href="#引用文章" class="headerlink" title="引用文章"></a>引用文章</h2><p>{% blockquote Michael.Lu <a href="http://blog.lujingtao.com/2017/11/07/hexo-new/">http://blog.lujingtao.com/2017/11/07/hexo-new/</a> 玩转hexo - 1 - 蠢萌的序 %}<br>一个使用 <code>hexo</code> 从零搭建博客的系列教程文章。<br>{% endblockquote %}</p>
+<h1 id="代码片段测试"><a href="#代码片段测试" class="headerlink" title="代码片段测试"></a>代码片段测试</h1><h2 id="普通代码"><a href="#普通代码" class="headerlink" title="普通代码"></a>普通代码</h2><pre><code class="js"><span class="keyword">const</span> theme = <span class="string">"mellow"</span>
+
+(<span class="function"><span class="keyword">function</span>(<span class="params">name</span>) </span>{
+
+    <span class="built_in">console</span>.log(<span class="string">`Hello <span class="subst">${ name }</span>!`</span>);
+
+})(theme);
+</code></pre>
+<h2 id="带标题及链接的代码"><a href="#带标题及链接的代码" class="headerlink" title="带标题及链接的代码"></a>带标题及链接的代码</h2><p>{% codeblock lang:js jQuery <a href="http://api.jquery.com/delegate/">http://api.jquery.com/delegate/</a> $.delegate() %}<br>$( “table” ).delegate( “td”, “click”, function() {<br>  $( this ).toggleClass( “chosen” );<br>});<br>{% endcodeblock %}</p>
+<h1 id="数学公式测试"><a href="#数学公式测试" class="headerlink" title="数学公式测试"></a>数学公式测试</h1><h2 id="普通公式"><a href="#普通公式" class="headerlink" title="普通公式"></a>普通公式</h2><p>$T(n) = \Theta(n)$</p>
+<h2 id="居中公式"><a href="#居中公式" class="headerlink" title="居中公式"></a>居中公式</h2><p>$$<br>\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.<br>$$</p>
+<h1 id="自定义markdown语法测试"><a href="#自定义markdown语法测试" class="headerlink" title="自定义markdown语法测试"></a>自定义markdown语法测试</h1><h2 id="分栏模块"><a href="#分栏模块" class="headerlink" title="分栏模块"></a>分栏模块</h2><h3 id="双栏结构"><a href="#双栏结构" class="headerlink" title="双栏结构"></a>双栏结构</h3><p>@column-2{</p>
+<p>@card{</p>
+<p>左</p>
+<p>}</p>
+<p>@card{</p>
+<p>右</p>
+<p>}</p>
+<p>}</p>
+<h3 id="控制文本对齐方式的三栏结构"><a href="#控制文本对齐方式的三栏结构" class="headerlink" title="控制文本对齐方式的三栏结构"></a>控制文本对齐方式的三栏结构</h3><p>@column-3{</p>
+<p>@card{</p>
+<p>左</p>
+<p>}</p>
+<p>@card{</p>
+<p>@center{</p>
+<p>中</p>
+<p>}</p>
+<p>}</p>
+<p>@card{</p>
+<p>@right{</p>
+<p>右</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<h2 id="时间轴"><a href="#时间轴" class="headerlink" title="时间轴"></a>时间轴</h2><p>@timeline{</p>
+<h5 id="2016"><a href="#2016" class="headerlink" title="2016"></a>2016</h5><p>@item{</p>
+<h6 id="11月6日"><a href="#11月6日" class="headerlink" title="11月6日"></a>11月6日</h6><p>为 <code>Card theme</code> 添加 <code>page layout</code>。<br>第二行测试</p>
+<p>}</p>
+<p>@item{</p>
+<h6 id="11月20日"><a href="#11月20日" class="headerlink" title="11月20日"></a>11月20日</h6><p>另一个 Time line .<br>第二行测试</p>
+<p>}</p>
+<p>}</p>
+<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p>更多说明见主题文档<a href="https://github.com/codefine/hexo-theme-mellow/wiki">https://github.com/codefine/hexo-theme-mellow/wiki</a></p>
+<iframe type="music" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=22822516&auto=1&height=66"></iframe>
