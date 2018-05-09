@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    
+    <title>MySQL | Final War | 英雄是跨越人生不幸的强者</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="keywords" content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="/css/style.css?v=1.1.1">
+    
+    <script type="text/javascript">
+        // Data Center
+        var DC = {
+            reward:	true,
+            lv: JSON.parse('{"enable":false,"app_id":null,"app_key":null,"icon":true}'),
+            v: JSON.parse('{"enable":false,"appid":null,"appkey":null,"notify":true,"verify":true,"placeholder":"give me some sugers plz...","avatar":"wavatar"}'),
+            g: JSON.parse('{"enable":false,"lazy":true,"owner":"obito-segu","repo":"gitment","oauth":{"client_id":null,"client_secret":null},"perPage":10}')
+        };
+    </script>
+    <script type="text/javascript">
+        window.lazyScripts=[];
+    </script>
+</head>
+
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap">
+      
+      <img src="/img/brand.jpg" class="brand-bg">
+      
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/avatar.jpg">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname"></h5>
+          <a href="mailto:925394401@qq.com" title="925394401@qq.com" class="mail">
+            
+              <span>9</span>
+            
+              <span>2</span>
+            
+              <span>5</span>
+            
+              <span>3</span>
+            
+              <span>9</span>
+            
+              <span>4</span>
+            
+              <span>4</span>
+            
+              <span>0</span>
+            
+              <span>1</span>
+            
+              <span>@</span>
+            
+              <span>q</span>
+            
+              <span>q</span>
+            
+              <span>.</span>
+            
+              <span>c</span>
+            
+              <span>o</span>
+            
+              <span>m</span>
+            
+          </a>
+        </hgroup>
+        
+        <ul class="menu-link">
+          
+              <li>
+                <a href="https://github.com/obito-segu" target="_blank">
+                  <i class="icon icon-lg icon-github"></i>
+                </a>
+              </li>
+            
+        </ul>
+        
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                HOME
+              </a>
+            </li>
+        
+            <li class="">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                CATEGORIES
+              </a>
+            </li>
+        
+            <li class="">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                TAGS
+              </a>
+            </li>
+        
+            <li class="">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                ARCHIVES
+              </a>
+            </li>
+        
+            <li class="">
+              <a href="/custom"  >
+                <i class="icon icon-lg icon-plus-square"></i>
+                CUSTOM
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row clearfix">
+        <a href="javascript:;" class="header-icon pull-left waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">
+            <span>MySQL</span>
+            
+        </div>
+        
+        <a href="javascript:;" id="site_search_btn" class="header-icon pull-right waves-effect waves-circle waves-light">
+            <i class="icon icon-lg icon-search"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+    <img src="/img/banner.jpg" class="header-bg">
+    <div class="container fade-scale">
+        <h1 class="title">MySQL</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2018-04-19T11:47:03.000Z" itemprop="datePublished" class="page-time">
+  2018-04-19
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Computer-Science/">Computer Science</a><ul class="article-category-list-child"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Computer-Science/Database/">Database</a></li></ul></li></ul>
+
+            
+        </h5>
+        
+    </div>
+    
+
+</header>
+
+<div id="site_search">
+    <div class="search-title clearfix">
+        <span class="pull-left">
+          <i class="icon icon-lg icon-search"></i>
+        </span>
+        <input type="text" id="local-search-input" name="q" results="0" placeholder="search my blog..." class="form-control pull-left"/>
+        <a href="javascript:;" class="close pull-right waves-effect waves-circle waves-light">
+          <i class="icon icon-lg icon-close"></i>
+        </a>
+    </div>
+    <div id="local-search-result"></div>
+</div>
+
+
+<div class="container body-wrap">
+    <article id="post-MySQL"
+  class="post-article article-type-post" itemprop="blogPost">
+    <div class="post-card">
+        <h1 class="post-card-title">MySQL</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2018-04-19 19:47:03" datetime="2018-04-19T11:47:03.000Z"  itemprop="datePublished">2018-04-19</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Computer-Science/">Computer Science</a><ul class="article-category-list-child"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Computer-Science/Database/">Database</a></li></ul></li></ul>
+
+
+
+            
+
+            
+
+
+            
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            
+            <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"># 创建数据库</div><div class="line">CREATE &#123;DATABASE | SCHEMA&#125; [IF NOT EXISTS] db_name</div><div class="line">[[DEFAULT] CHARACTER SET [=] charset_name]；</div><div class="line"></div><div class="line"></div><div class="line"># 修改数据库</div><div class="line">ALTER &#123;DATABASE | SCHEMA&#125; [db_name]</div><div class="line">[DEFAULT] CHARACTER SET [=] charset_name;</div><div class="line"></div><div class="line"># 删除数据库</div><div class="line">DROP &#123;DATABASE | SCHEMA&#125; [IF EXISTS] db_name;</div><div class="line"></div><div class="line"># 查看数据库字符集编码</div><div class="line">SHOW CREATE DATABASE db_name;</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line"># 查看数据库列表</div><div class="line">SHOW TABLES [FROM db_name]</div><div class="line">[LIKE &apos;pattern&apos; | WHERE expr];</div><div class="line"></div><div class="line"></div><div class="line"># 查看数据表结构</div><div class="line">SHOW COLUMNS FROM tbl_name</div><div class="line"></div><div class="line"></div><div class="line"># 插入记录</div><div class="line">INSERT [INTO] tbl_name [(col_name,...)] VALUE(val,...)</div><div class="line"></div><div class="line"># 查找记录</div><div class="line">SELECT expr,... FROM tbl_name</div><div class="line"></div><div class="line"># 自动编号</div><div class="line">&quot;&quot;&quot;</div><div class="line">AUTO_INCREMENT</div><div class="line">必须和主键组合使用</div><div class="line">默认：1，2，3，。。。</div><div class="line">&quot;&quot;&quot;</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line">&quot;&quot;&quot;</div><div class="line">1、查看版本号：select version();</div><div class="line">2、查看日期：select now();</div><div class="line">3、查看用户：select user();</div><div class="line">&quot;&quot;&quot;</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"># 外键约束的要求</div><div class="line"># 1.父表和子表使用相同的数据引擎；禁止使用临时表</div><div class="line"># 2.数据表的存储引擎为InnoDB</div><div class="line"># 3.外键列和参照列有相似的数据类型。数字的长度和符号位必须相同；字符则可以不同</div><div class="line"># 4.外键列和参照列必须创建索引。外键列不存在索引则自动创建</div><div class="line">create table provience (</div><div class="line">id smallint unsigned auto_increment primary key,</div><div class="line">proname varchar(20) not null</div><div class="line">);</div><div class="line"></div><div class="line">create table user(</div><div class="line">id smallint unsigned auto_incremene primary key,</div><div class="line">username varchar(10) not null,</div><div class="line">pid smallint unsigned </div><div class="line">foreign key (pid) references provience(id) on delete cascade(set null, restrict, not action)</div><div class="line">);</div><div class="line"></div><div class="line"></div><div class="line">delete from tb_name where id=?;父表和子表一对一才行，如果对应多个子表将会删除失败</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div></pre></td><td class="code"><pre><div class="line"># 添加单列</div><div class="line">ALTER TABLE tbl_name ADD [COLUMN] col_name column_definition [FIRST | AFTER col_name]</div><div class="line"># 添加多列</div><div class="line">ALTER TABLE tbl_name ADD [COLUMN](col_name column_definition,...)</div><div class="line"></div><div class="line"># 删除列</div><div class="line">ALTER TABLE tbl_name DROP [COLUMN] col_name</div><div class="line"></div><div class="line"># 添加主键约束</div><div class="line">ALTER TABLE tbl_name ADD [CONSTRAINT [symbol]]</div><div class="line">PRIMARY KEY [index_type](index_col_name,...)</div><div class="line"></div><div class="line"># 添加唯一约束</div><div class="line">ALTER TABLE tbl_name ADD [CONSTRAINT [symbol]]</div><div class="line">UNIQUE [INDEX|KEY] [index_name] [index_type]</div><div class="line">(index_col_name,...)</div><div class="line"></div><div class="line"># 添加外键约束</div><div class="line">ALTER TABLE table_name ADD CONSTRAINT fk_column_id FOREIGN KEY[COLUMN]references (column_id);</div><div class="line"></div><div class="line"># 添加/删除默认约束</div><div class="line">ALTER TABLE tbl_name ALTER [COLUMN] col_name &#123;SET DEFAULT literal | DROP DEFAULT&#125;</div><div class="line"></div><div class="line"># 删除主键约束</div><div class="line">ALTER TABLE tbl_name DROP PRIMARY KEY</div><div class="line"></div><div class="line"># 删除唯一约束</div><div class="line">ALTER TABLE tbl_name DROP &#123;INDEX|KEY&#125; index_name</div><div class="line"></div><div class="line"># 删除外键约束</div><div class="line">ALTER TABLE tbl_name DROP FOREIGN KEY fk_symbol</div><div class="line"></div><div class="line"># 修改列定义</div><div class="line">ALTER TABLE tbl_name MODIFY [COLUMN] col_name column_definition  [FIRST|AFTER col_name]</div><div class="line"></div><div class="line"># 修改列名称</div><div class="line">ALTER TABLE tbl_name CHANGE [COLUMN] old_col_name new_col_name column_definition  [FIRST|AFTER col_name]</div><div class="line"></div><div class="line"># 修改数据表名称</div><div class="line">ALTER TABLE 表名 RENAME 新表名；</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line"># 插入记录</div><div class="line">INSERT [INTO] tbl_name [(col_name,...)] &#123;VALUES|VALUE&#125;</div><div class="line">(&#123;expr|DEFAULT&#125;,...),(...),...</div><div class="line"></div><div class="line">INSERT [INTO] tbl_name SET col_name=&#123;expr|DEFAULT&#125;,...</div><div class="line"></div><div class="line"></div><div class="line"># 更新记录</div><div class="line">UPDATE [LOW_PRIORITY] [IGNORE] table_reference SET col_name1=&#123;expr1|DEFAULT&#125;,[,col_name2=&#123;expr2|DEFAULT&#125;]... [WHERE where_condition]</div><div class="line"></div><div class="line"></div><div class="line"># 删除记录</div><div class="line">DELETE FROM tbl_name [WHERE where_condition]</div><div class="line"></div><div class="line"># 查找记录</div><div class="line">SELECT select_expr [,select_expr ...]</div><div class="line">[</div><div class="line">	FROM table_references</div><div class="line">	[WHERE where_condition]</div><div class="line">	[GROUP BY &#123;col_name|position&#125; [ASC|DESC],...]</div><div class="line">	[HAVING where_condition]</div><div class="line">	[ORDER BY &#123;col_name|expr|position&#125;[ASC|DESC],...]</div><div class="line">	[LIMIT &#123;[offset,] row_count | row_count OFFSET offset&#125;]</div><div class="line">]</div><div class="line"></div><div class="line"># 查询结果分组</div><div class="line">[GRPOUP BY &#123;col_name|position&#125; [ASC|DESC],...]</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">NOW() //当前时间 含日期时间</div><div class="line">CURDATE() //当前日期 只有日期</div><div class="line">CURTIME() //当前时间 只有时间</div><div class="line">DATE_ADD() //时间增减或减少</div><div class="line">SELECT DATE_ADD(&apos;2014-3-12&apos;,INTERVAL 365 DAY); ==&gt;2015-3-12 //在原有给定的时间上增加365天</div><div class="line">INTERVAL增加可以增加负值 单位 year ,month,week,day</div><div class="line">SELECT DATEDIFF(&apos;2014-1-1&apos;,&apos;2015-1-1&apos;) ==&gt; -365 //时间差值计算 单位为日 前面时间减去后面时间</div><div class="line">SELECT DATE_FORMAT(&apos;2014-3-2&apos;,&apos;%m/%d/%d&apos;); ==&gt; 03/02/2014 //日期格式转换</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"># 创建函数</div><div class="line">CREATE FUNCTION function_name</div><div class="line">RETURNS</div><div class="line">&#123;STRING|INTEGER|REAL|DECIMAL&#125;</div><div class="line">routine_body</div><div class="line"></div><div class="line"># 创建带有参数的自定义函</div><div class="line">CREATE FUNCTION f2(num1 SMALLINT UNSIGNED,num2 SMALLINT UNSIGNED</div><div class="line">RETURNS FLOAT(10,2) UNSIGNED</div><div class="line">RETURN (num1+num2)/2;</div><div class="line"></div><div class="line"></div><div class="line"># BEGIN 和 END 之间，可以执行多条语句</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div></pre></td><td class="code"><pre><div class="line"># 创建存储过程</div><div class="line">CREATE</div><div class="line">[DEFINER = &#123;user|CURRENT_USER&#125;]</div><div class="line">PROCEDURE sp_name ([proc_parameter[,...]])</div><div class="line">[characteristic ...] routine_body</div><div class="line"></div><div class="line">proc_parameter:</div><div class="line">[IN|OUT|INOUT] param_name type</div><div class="line"></div><div class="line"></div><div class="line">创建存储过程</div><div class="line">语法格式：CREATE PROCEDURE 存储过程名 （[参数],[参数]...）</div><div class="line">例如：CREATE PROCEDURE sq1() SELECT VERSION();</div><div class="line">调用存储过程</div><div class="line">CALL 存储过程名[(参数)]，...</div><div class="line">例如：CALL sp1();无参可以省略小括号。有参就不能省略</div><div class="line"></div><div class="line">创建参数为IN类型的存储过程，在对数据表执行某些操作时参数名和数据表字段不可一致，修改过程体时需删除重建过程&lt;br&gt;</div><div class="line">DELIMITER //</div><div class="line">CREATE PROCEDURE removeTableByid(INT p_id unsigned)</div><div class="line">BEGIN</div><div class="line">DELETE FROM table_name where id=p_id;</div><div class="line">END//</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"># 创建带有IN类型参数的正确写法</div><div class="line">DELIMITER //</div><div class="line">CREATE PROCEDURE removeUserById(IN p_id INT UNSIGNED)</div><div class="line">BEGIN</div><div class="line">DELETE FROM uses WHERE id = p_id;</div><div class="line">END</div><div class="line">//</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"># 创建带有IN和OUT类型参数的储存过程</div><div class="line">DELIMITER //</div><div class="line">CREATE PROCEDURE removeUserAndReturnUserNums(IN p_id INT UNSIGNED,OUT userNums INT UNSIGNED)</div><div class="line">BEGIN</div><div class="line">DELETE FROM users WHERE id = p_id;</div><div class="line">SELECT count(id) FROM users INTO userNums;</div><div class="line">END</div><div class="line">//</div><div class="line"></div><div class="line"></div><div class="line"># 多个out参数的存储过程</div><div class="line">DELIMITER //</div><div class="line">CREATE PROCEDURE removeUserByAgeAndReturnInfos(IN p_age SMALLINT UNSIGNED,OUT deleteUser SMALLINT UNSIGNED,OUT userCounts SMALLINT UNSIGNED)</div><div class="line">BEGIN</div><div class="line">DELETE FROM users WHERE age = p_age;</div><div class="line">SELECT ROW_COUNT(id) INTO deleteUsers;</div><div class="line">SELECT COUNT(id) FROM users INTO userCounts;</div><div class="line">END</div><div class="line">//</div><div class="line"></div><div class="line"></div><div class="line"># 多个out参数存储过程调用</div><div class="line">CALL removeUserByAgeAndReturnInfos(23,@a,@b);</div><div class="line">SELECT @a,@b;</div></pre></td></tr></table></figure>
+
+        </div>
+        
+<blockquote class="post-copyright">
+    <div class="content">
+        
+<span class="post-time">
+    Last updated: <time datetime="2018-04-26T05:04:07.443Z" itemprop="dateUpdated">2018-04-26 13:04:07</time>
+</span><br>
+
+
+        
+        转载注明出处，原文地址：<a href="/2018/04/19/MySQL/" target="_blank" rel="external">https://obito-segu.github.io/2018/04/19/MySQL/</a>
+        
+    </div>
+    <footer>
+        <a href="https://obito-segu.github.io">
+            <img src="/img/avatar.jpg" alt="">
+            
+        </a>
+    </footer>
+</blockquote>
+
+        
+            <div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+            
+        
+        <div class="post-footer">
+            
+            <div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://obito-segu.github.io/2018/04/19/MySQL/&title=《MySQL》 — Final War&pic=https://obito-segu.github.io/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://obito-segu.github.io/2018/04/19/MySQL/&title=《MySQL》 — Final War&source=" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+        </div>
+        
+            
+
+
+        
+    </div>
+    
+<nav class="post-nav flex-row flex-justify-between">
+  
+    <div class="prev">
+      <a href="/2018/04/22/Week3/" id="post-prev" class="post-nav-link">
+        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
+        <h4 class="title">Week3</h4>
+      </a>
+    </div>
+  
+
+  
+    <div class="next">
+      <a href="/2018/04/16/社会热点类-人口老龄化/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">社会热点类:人口老龄化</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+    
+    
+</article>
+
+    <div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        可怜可怜我吧
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" src="/img/reward-wechat.jpg" alt="打赏二维码">
+        </div>
+        
+        <label class="reward-toggle">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
+                data-wechat="/img/reward-wechat.jpg" data-alipay="/img/reward-alipay.jpg">
+            <div class="reward-toggle-ctrol">
+                <span class="reward-toggle-item wechat">微信</span>
+                <span class="reward-toggle-label"></span>
+                <span class="reward-toggle-item alipay">支付宝</span>
+            </div>
+        </label>
+        
+    </div>
+</div>
+
+    
+</div>
+
+        <footer class="footer">
+    
+    <div class="top">
+        
+        
+            <p>
+    <span>Links：</span>
+    
+    <span class="blogroll-item">
+        <a href="https://www.google.com" target="_blank">HOME</a>
+    </span>
+    
+</p>
+
+        
+    </div>
+    
+    <div class="bottom">
+        <p>
+            <span>
+                 &copy; 2018
+            </span>
+        		
+           	
+            
+            
+            <span>
+	            Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/codefine/hexo-theme-mellow" target="_blank">mellow</a>
+            </span>
+            
+            
+            
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://obito-segu.github.io/2018/04/19/MySQL/&title=《MySQL》 — Final War&pic=https://obito-segu.github.io/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://obito-segu.github.io/2018/04/19/MySQL/&title=《MySQL》 — Final War&source=" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACKklEQVR42u3aUY6DMAxF0e5/08wCOsB9NlRKfPOFWgQ5fFh27M8Hr+Nrff97dj+/5+zOx5YMGTKWZRyXi2+Lv4V/JrI3GTJkzGGcPfr6urPdsyeTd8mQIUMGZ/DrWmooQ4YMGR3GdQLH7yQpqQwZMmTUHscTx5vi8/e1uAwZMhZk8MOy31+/0t+QIUPGUowjXOnRP/nlOvVEu5IhQ8bWDB7gOI+UvqQ9EDdEZciQsTUjLSlrmyZHZunYWZwyypAhY3EGD4JPtSTfaIvKkCFjGoOEztYrwwIYpYYyZMjYmsGbkbUDss74RbF8lSFDxnYMEmp5kclDZOcIT4YMGRMYfEM8veMJZS28/nMtQ4aMrRmkDcCbBMVIH8593XRiZciQsR2DlJfpv3ycgj8/mBaRIUPGdozawFZ6oMZHKzpFsgwZMnZldIpYUoKmH6tWJMuQIWMyg4fgNL0jR3K8uJUhQ8YcRlpApkf5vM0Zj6nJkCFja0Zt5Ks2SFEbC4tDuQwZMjZldErKNATXPgQ6VZMhQ8YwRjqS1WkkkGQUJa8yZMgYyeANSB4uHztiC6YwZMiQsTbjCFen3ciP1UhDQoYMGXMYaZhLAyXZCi9ca80GGTJk7MHgQfapUrb/yWTIkDGTkaZ3tZGIzijGDVKGDBkyHqLyz0HuR8eJMmTIGMnoH8nx1DNAypAhYwAj3Vb6b609+cpxmwwZMhZkvPeCdICDD2oUm5oyZMhYj/EHDo2Jh+CGeQwAAAAASUVORK5CYII=" alt="微信分享二维码">
+</div>
+
+
+    
+    <!-- main-js -->
+<script type="text/javascript" src="//cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="/js/plugins/fastclick.js?v=1.1.1"></script>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+
+<script type="text/javascript" src="/js/method.js?v=1.1.1"></script>
+<script type="text/javascript" src="/js/blog.js?v=1.1.1"></script>
+
+<!-- third-party -->
+
+
+
+
+
+<script type="text/javascript" src="/js/plugins/local_search.js?v=1.1.1"></script>
+<script type="text/javascript">
+	var search_path = "search.xml";
+	if (search_path.length === 0) {
+		search_path = "search.xml";
+	}
+	var path = "/" + search_path;
+	searchFunc(path, "local-search-input", "local-search-result");
+</script>
+
+
+
+    
+    
+
+
+
+
+
+    <!-- mathjax config similar to math.stackexchange -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+            processEscapes: true,
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+
+    
+</body>
+</html>
